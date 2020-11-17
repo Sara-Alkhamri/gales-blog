@@ -17,7 +17,19 @@ class Blog extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
-        <Bio />
+        {/* <Bio /> */}
+        <div
+          style={{
+            display: `block`,
+            textAlign: `center`,
+          }}
+        >
+          <img
+            style={{ width: `25rem` }}
+            src="./I.CreateHealthy.png"
+            alt="I.Create.Healthy"
+          />
+        </div>
         <SearchPosts
           posts={posts}
           localSearchBlog={localSearchBlog}
