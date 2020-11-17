@@ -11,7 +11,7 @@ export default function About() {
           textAlign: `center`,
         }}
       >
-        <Link to="/" style={{ textDecoration: `none` }}>
+        <Link to="/" style={{ boxShadow: `none` }}>
           <img
             style={{ width: `25rem` }}
             src="../I.CreateHealthy.png"
