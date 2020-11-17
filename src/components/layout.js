@@ -124,9 +124,12 @@ export default function Layout({ children }) {
           {/* <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
             <h1 style={{ display: `inline` }}>I. Create. Healthy</h1>
           </Link> */}
-          <ul style={{ listStyle: `none`, float: `right` }}>
-            {/* <ListLink to="/">Home</ListLink> */}
-            {/* <ListLink to="/product">Product</ListLink> */}
+          <ul
+            style={{
+              listStyle: `none`,
+              float: `right`,
+            }}
+          >
             <ListLink to="/blog">Blog</ListLink>
             <ListLink to="/about/">About</ListLink>
             <ListLink to="/contact/">Contact</ListLink>
