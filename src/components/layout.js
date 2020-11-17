@@ -124,6 +124,7 @@ export default function Layout({ children }) {
             style={{
               listStyle: `none`,
               float: `right`,
+              boxShadow: `none`,
             }}
           >
             <ListLink to="/blog">Blog</ListLink>

@@ -24,11 +24,13 @@ class Blog extends React.Component {
             textAlign: `center`,
           }}
         >
-          <img
-            style={{ width: `25rem` }}
-            src="./I.CreateHealthy.png"
-            alt="I.Create.Healthy"
-          />
+          <Link to="/" style={{ textDecoration: `none` }}>
+            <img
+              style={{ width: `25rem` }}
+              src="../I.CreateHealthy.png"
+              alt="I.Create.Healthy"
+            />
+          </Link>
         </div>
         <SearchPosts
           posts={posts}

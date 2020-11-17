@@ -1,9 +1,24 @@
 import React from "react"
+import Layout from "../components/layout"
+import { Link } from "gatsby"
 
 export default function About() {
   return (
-    <div>
-      {/* <Layout /> */}
+    <Layout>
+      <div
+        style={{
+          display: `block`,
+          textAlign: `center`,
+        }}
+      >
+        <Link to="/" style={{ textDecoration: `none` }}>
+          <img
+            style={{ width: `25rem` }}
+            src="../I.CreateHealthy.png"
+            alt="I.Create.Healthy"
+          />
+        </Link>
+      </div>
       <h1>Our Story</h1>
       <p>
         Such wow. Very React. is simply dummy text of the printing and
@@ -25,6 +40,6 @@ export default function About() {
         essentially unchanged.{" "}
       </p>
       {/* <img style={{ width: `22rem` }} src={aboutImage} alt="about" /> */}
-    </div>
+    </Layout>
   )
 }
