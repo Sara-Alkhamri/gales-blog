@@ -114,6 +114,7 @@ export default function Layout({ children }) {
           margin: `3rem auto`,
           maxWidth: `0 auto`,
           padding: `0 1rem`,
+          boxShadow: `none`,
         }}
       >
         <header style={{ marginTop: `1.5rem` }}>
@@ -124,7 +125,6 @@ export default function Layout({ children }) {
             style={{
               listStyle: `none`,
               float: `right`,
-              boxShadow: `none`,
             }}
           >
             <ListLink to="/blog">Blog</ListLink>
