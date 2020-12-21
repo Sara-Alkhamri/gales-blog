@@ -13,7 +13,7 @@ export default function About() {
       >
         <Link to="/" style={{ boxShadow: `none` }}>
           <img
-            style={{ width: `25rem` }}
+            style={{ width: `30rem` }}
             src="../I.CreateHealthy.png"
             alt="I.Create.Healthy"
           />
