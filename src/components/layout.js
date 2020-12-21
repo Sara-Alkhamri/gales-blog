@@ -111,13 +111,13 @@ export default function Layout({ children }) {
     <Wrapper>
       <div
         style={{
-          margin: `3rem auto`,
+          margin: `4rem auto`,
           maxWidth: `0 auto`,
-          padding: `0 1rem`,
+          padding: `0 4rem 0`,
           boxShadow: `none`,
         }}
       >
-        <header style={{ marginTop: `1.5rem` }}>
+        <header style={{ margin: `1.5rem` }}>
           {/* <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
             <h1 style={{ display: `inline` }}>I. Create. Healthy</h1>
           </Link> */}
