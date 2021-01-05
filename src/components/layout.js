@@ -127,8 +127,8 @@ export default function Layout({ children }) {
               float: `right`,
             }}
           >
-            <ListLink to="/blog">Blog</ListLink>
             <ListLink to="/about/">About</ListLink>
+            <ListLink to="/blog">Blog</ListLink>
             <ListLink to="/contact/">Contact</ListLink>
           </ul>
         </header>
