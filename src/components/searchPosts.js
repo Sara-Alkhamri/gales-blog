@@ -27,8 +27,7 @@ const SearchBar = styled.div`
     display: flex;
     flex: 100%;
     height: 100%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-      Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: "Roboto, sans-serif";
     font-size: 16px;
     background-color: transparent;
     border: none;
@@ -87,11 +86,14 @@ const AllPosts = ({ posts }) => (
               marginBottom: rhythm(1 / 4),
             }}
           >
-            <Link style={{ boxShadow: `none` }} to={`/blog${node.fields.slug}`}>
+            <Link
+              style={{ boxShadow: `#f0cfb0` }}
+              to={`/blog${node.fields.slug}`}
+            >
               {title}
             </Link>
           </h3>
-          <small>{node.frontmatter.date}</small>
+          <small style={{ color: `#e2ac84` }}>{node.frontmatter.date}</small>
           <p
             dangerouslySetInnerHTML={{
               __html: node.frontmatter.description || node.excerpt,
