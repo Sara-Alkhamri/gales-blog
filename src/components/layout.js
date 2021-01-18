@@ -125,6 +125,7 @@ export default function Layout({ children }) {
             style={{
               listStyle: `none`,
               float: `right`,
+              fontFamily: `Roboto, sans-serif`,
             }}
           >
             <ListLink to="/about/">About</ListLink>

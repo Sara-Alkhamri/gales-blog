@@ -16,6 +16,7 @@ export default function HTML(props) {
           rel="search"
           href="opensearch.xml"
         />
+
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>

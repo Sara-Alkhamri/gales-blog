@@ -19,11 +19,18 @@ export default function About() {
           />
         </Link>
       </div>
-      <h1>The Journey…</h1>
+      <h1
+        style={{
+          fontFamily: `Roboto bold`,
+        }}
+      >
+        The Journey…
+      </h1>
       <div
         style={{
           display: `flex`,
           flexWrap: `wrap`,
+          fontFamily: `Roboto`,
         }}
       >
         <p>
