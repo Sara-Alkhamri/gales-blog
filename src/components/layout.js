@@ -139,24 +139,25 @@ export default function Layout({ children }) {
       <div
         style={{
           backgroundColor: `#fff0e3`,
-
           padding: `2rem 0 2rem 0`,
           textAlign: `center`,
         }}
       >
-        <a
-          style={{ boxShadow: `none` }}
-          href="https://www.youtube.com/channel/UCkxTcSlabiZqQuX7h5EzdHg"
-        >
-          <img style={{ width: `20px` }} src="../youtube.png"></img>
-        </a>
-        <a
-          style={{ boxShadow: `none` }}
-          href="http://www.pinterest.com/icreatehealty"
-        >
-          <img style={{ width: `20px` }} src="../pintrest.png" />
-        </a>
         <small>
+          <a
+            style={{ boxShadow: `none` }}
+            href="https://www.youtube.com/channel/UCkxTcSlabiZqQuX7h5EzdHg"
+            target="_blank"
+          >
+            <img style={{ width: `20px` }} src="../youtube.png"></img>
+          </a>
+          <a
+            style={{ boxShadow: `none` }}
+            href="http://www.pinterest.com/icreatehealty"
+            target="_blank"
+          >
+            <img style={{ width: `20px` }} src="../pintrest.png" />
+          </a>
           Made by <a href="https://saraalkhamri.com/"> Revive Labs </a>
           copyright ©2020, All Rights Reserved
         </small>
