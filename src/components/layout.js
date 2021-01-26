@@ -98,8 +98,8 @@ import styled from "styled-components"
 // export default Layout
 
 import React from "react"
-
 import { Link } from "gatsby"
+
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
     <Link to={props.to}>{props.children}</Link>
@@ -111,6 +111,7 @@ export default function Layout({ children }) {
     <Wrapper>
       <div
         style={{
+          flex: 1,
           margin: `3rem`,
           maxWidth: `0 auto`,
           padding: `0 1rem 1rem`,
@@ -135,18 +136,37 @@ export default function Layout({ children }) {
 
         {children}
       </div>
-      <div>
-        <footer style={{ bottom: 0, textAlign: `center` }}>
-          <small>
-            Made by <a href="https://saraalkhamri.com/"> Revive Labs </a>
-            copyright ©2020, All Rights Reserved
-          </small>
-        </footer>
+      <div
+        style={{
+          backgroundColor: `#fff0e3`,
+
+          padding: `2rem 0 2rem 0`,
+          textAlign: `center`,
+        }}
+      >
+        <a
+          style={{ boxShadow: `none` }}
+          href="https://www.youtube.com/channel/UCkxTcSlabiZqQuX7h5EzdHg"
+        >
+          <img style={{ width: `20px` }} src="../youtube.png"></img>
+        </a>
+        <a
+          style={{ boxShadow: `none` }}
+          href="http://www.pinterest.com/icreatehealty"
+        >
+          <img style={{ width: `20px` }} src="../pintrest.png" />
+        </a>
+        <small>
+          Made by <a href="https://saraalkhamri.com/"> Revive Labs </a>
+          copyright ©2020, All Rights Reserved
+        </small>
       </div>
     </Wrapper>
   )
 }
 
 const Wrapper = styled.div`
+  display: flex;
   min-height: 100vh;
+  flex-direction: column;
 `

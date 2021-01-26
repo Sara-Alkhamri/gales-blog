@@ -32,7 +32,7 @@ export default class MyForm extends React.Component {
         <form
           style={{
             display: `flex`,
-            flexDirection: `column`,
+            flexDirection: `row`,
             margin: `3rem auto`,
             maxWidth: `100%`,
             padding: `0 1rem`,

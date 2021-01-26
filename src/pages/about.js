@@ -27,6 +27,11 @@ export default function About() {
           fontFamily: `Roboto, sans-serif`,
         }}
       >
+        {/* <img
+          style={{ margin: `1rem`, width: `28rem` }}
+          src="../about.jpg"
+          alt="about image"
+        /> */}
         <p>
           This journey started in 2016 when I had the Ah Ha moment that you can
           heal yourself naturally. I started taking small steps researching into
@@ -37,12 +42,8 @@ export default function About() {
           a space for “like minds” to come together and chat. For people like me
           who are passionate about our bodies, our minds, and our souls.
         </p>
-        <img
-          style={{ margin: `1rem`, width: `28rem` }}
-          src="../about.jpg"
-          alt="about image"
-        />
-        <p style={{ width: `500px`, marginLeft: `4rem` }}>
+
+        <p>
           My passion has become holistic health and wellness and I am here to
           help educate, encourage and help promote the best life that YOU can
           offer to yourself! I hope this website inspires you to create, nurture
