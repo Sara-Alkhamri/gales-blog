@@ -138,9 +138,11 @@ export default function Layout({ children }) {
       </div>
       <div
         style={{
-          border: ` 1px solid #e1d2bd`,
+          backgroundColor: `#e1d2bd`,
           padding: `2rem 0 2rem 0`,
           textAlign: `center`,
+          display: `flex`,
+          flexDirection: `column`,
         }}
       >
         <a
