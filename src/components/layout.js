@@ -153,7 +153,7 @@ export default function Layout({ children }) {
           <img
             style={{ width: `20px` }}
             alt="youtube icon"
-            src="../youtube.png"
+            src="./youtube.png"
           ></img>
         </a>
         <a
@@ -164,13 +164,13 @@ export default function Layout({ children }) {
           <img
             style={{ width: `20px` }}
             alt="pinterest icon"
-            src="../pintrest.png"
+            src="./pintrest.png"
           />
         </a>
-        <small>
+        {/* <small>
           Made by <a href="https://saraalkhamri.com/"> Revive Labs </a>
           copyright ©2020, All Rights Reserved
-        </small>
+        </small> */}
       </div>
     </Wrapper>
   )

@@ -29,41 +29,45 @@ export default class MyForm extends React.Component {
             />
           </Link>
         </div>
-        <form
+        <div
           style={{
             display: `flex`,
             flexDirection: `row`,
             margin: `3rem auto`,
             maxWidth: `100%`,
             padding: `0 1rem`,
+            backgroundColor: `#fff0e3`,
           }}
-          onSubmit={this.submitForm}
-          action="https://formspree.io/f/mlelvvla"
-          method="POST"
         >
-          <label>
-            Name
-            <input type="text" name="name" id="name" />
-          </label>
-          <label>
-            Email
-            <input type="email" name="email" id="email" />
-          </label>
-          {/* <label>
+          <form
+            onSubmit={this.submitForm}
+            action="https://formspree.io/f/mlelvvla"
+            method="POST"
+          >
+            <label>
+              Name
+              <input type="text" name="name" id="name" />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" id="email" />
+            </label>
+            {/* <label>
             Subject
             <input type="text" name="subject" id="subject" />
           </label> */}
-          <label>
-            Message
-            <textarea name="message" id="message" rows="5" />
-          </label>
-          {status === "SUCCESS" ? (
-            <p>Thanks! Your message has been sent</p>
-          ) : (
-            <button>Submit</button>
-          )}
-          {status === "ERROR" && <p>Ooops! There was an error.</p>}
-        </form>
+            <label>
+              Message
+              <textarea name="message" id="message" rows="5" />
+            </label>
+            {status === "SUCCESS" ? (
+              <p>Thanks! Your message has been sent</p>
+            ) : (
+              <button>Submit</button>
+            )}
+            {status === "ERROR" && <p>Ooops! There was an error.</p>}
+          </form>
+        </div>
       </Layout>
     )
   }
