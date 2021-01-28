@@ -150,14 +150,22 @@ export default function Layout({ children }) {
           href="https://www.youtube.com/channel/UCkxTcSlabiZqQuX7h5EzdHg"
           target="_blank"
         >
-          <img style={{ width: `20px` }} src="../youtube.png"></img>
+          <img
+            style={{ width: `20px` }}
+            alt="youtube icon"
+            src="../youtube.png"
+          ></img>
         </a>
         <a
           style={{ boxShadow: `none` }}
           href="http://www.pinterest.com/icreatehealty"
           target="_blank"
         >
-          <img style={{ width: `20px` }} src="../pintrest.png" />
+          <img
+            style={{ width: `20px` }}
+            alt="pinterest icon"
+            src="../pintrest.png"
+          />
         </a>
         <small>
           Made by <a href="https://saraalkhamri.com/"> Revive Labs </a>
